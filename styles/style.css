@@ -1,0 +1,45 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    max-width: 375px;
+    max-width: 1400px;
+    margin: 5%;
+    min-width: 90%;
+    /* background-color: blue; */
+}
+
+h2, h3 {
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+p {
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex-direction: column;
+    min-width: 90%;
+}
+
+.img {
+    min-width: 90%;
+}
+
+@media only screen and (min-width: 1320px) {
+    body {
+      background-color: lightblue;
+    }
+    .grid-container {
+        display: grid;
+    }
+    .grid-item {
+        
+    }
+  }
