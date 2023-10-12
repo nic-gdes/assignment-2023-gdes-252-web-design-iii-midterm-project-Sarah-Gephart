@@ -4,11 +4,14 @@
 
 body {
     font-size: 1rem;
-    max-width: 375px;
-    max-width: 1400px;
-    margin: 5%;
-    min-width: 90%;
-    /* background-color: blue; */
+    margin: 0 auto;
+    background-color: #F7F1ED;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20% 0 0 0;
 }
 
 h2, h3 {
@@ -17,6 +20,66 @@ h2, h3 {
 
 p {
     margin: 1rem 0rem 2rem 0rem;
+}
+
+hr {
+    border-color: #98002E;
+    width: 75%;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #98002E;
+}
+
+.header {
+   margin: 0 auto;
+}
+
+.news {
+    max-width: 375px;
+    max-width: 1400px;
+    margin: 5%;
+    min-width: 90%;
+}
+
+.nicbg {
+    background-color: #F4E2D6;
+}
+
+.nic {
+    margin: 0 auto;
+    padding: 5%;
+    max-width: 90%;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5%;
+    max-width: 90%;
+}
+
+.grid-container {
+    display: grid;
+    gap: 2rem;
+}
+
+.nav {
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 50%;
+    margin: 5% auto;
+    display: block;
+}
+
+.lab {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
 }
 
 .flex-container {
@@ -28,8 +91,20 @@ p {
     min-width: 90%;
 }
 
-.img {
-    min-width: 90%;
+.pill {
+    list-style: none;
+}
+
+.header-content {
+    justify-content: center;
+}
+
+a {
+    color: rgb(245, 193, 193);
+    background-color: rgb(163, 36, 36);
+    margin: 0 auto;
+    /* padding: 20% 35%; */
+    border-radius: 30px;
 }
 
 @media only screen and (min-width: 1320px) {
@@ -37,9 +112,18 @@ p {
       background-color: lightblue;
     }
     .grid-container {
-        display: grid;
+        grid-template: auto / 2fr 3fr 1fr;
     }
-    .grid-item {
-        
+    .micro {
+    }
+    .pizza {
+        grid-column: 2 / 4;
+        grid-row: 1 / 3
+    }
+    .mars {
+        grid-row: 2 / 3;
+
+    .coffee {
+
     }
   }
