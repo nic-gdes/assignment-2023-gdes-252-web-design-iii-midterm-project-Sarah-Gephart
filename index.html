@@ -14,9 +14,9 @@
             <h1>Latest News</h1>
             <nav>
                 <ul class="flex-container nav">
-                    <li class="pill"><a>Politics</a></li>
-                    <li class="pill"><a>Sports</a></li>
-                    <li class="pill"><a>Tech</a></li>
+                    <li class="pill"><a class="hoverpill">Politics</a></li>
+                    <li class="pill"><a class="hoverpill">Sports</a></li>
+                    <li class="pill"><a class="staticpill">Tech</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,18 +53,20 @@
         </div>
         <div class="flex-container flex-item grid-item coffee">
             <img id="image" src="images/coffee.png" alt="Three coffee cups with latte art sit in a row, fading into the blurry background, green plants in white pots on either side. They all sit on a wooden table.">
-            <h2>
-                World’s First Mind-Reading Coffee Machine Brews Your Perfect Cup of Joe
-            </h2>
-            <p>
-                Imagine a world where your coffee machine knows exactly how you’re feeling and brews the perfect cup of coffee to match your mood. A new startup claims to have developed a coffee maker that can read your thoughts and preferences, delivering a customized caffeine experience. While it sounds enticing, critics argue that mind-reading technology of this caliber is far from being a reality.
-            </p>
+            <div class="content">
+                <h2>
+                    World’s First Mind-Reading Coffee Machine Brews Your Perfect Cup of Joe
+                </h2>
+                <p>
+                    Imagine a world where your coffee machine knows exactly how you’re feeling and brews the perfect cup of coffee to match your mood. A new startup claims to have developed a coffee maker that can read your thoughts and preferences, delivering a customized caffeine experience. While it sounds enticing, critics argue that mind-reading technology of this caliber is far from being a reality.
+                </p>
+            </div>
         </div>
 
         <hr>
 
-        <div class="flex-container flex-item grid-item">
-            <h2>
+        <div class="flex-container flex-item grid-item internet">
+            <h2 class="internet">
                 Internet 2.0 Unveiled: Downloading Physical Objects at the Speed of Light
             </h2>
             <p>
@@ -98,15 +100,15 @@
             <p>
                 By day, we’re delving into the secrets of HTML, CSS, and JavaScript – the building blocks of the digital realm. By night, we’re conjuring up designs that’ll make your website stand out like a neon unicorn in a field of plain horses. We’re equal parts geeks and artists, and we’re proud of it!
             </p>
-            <div>Visit the GDES Program at NIC</div>
+            <button class="flex-container">Visit the GDES Program at NIC</button>
         </section>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <section class="footer">
-            <img class="footer logo" src="images/logo-gdesnews.png" alt="GDES News logo in a red, high contrast serif font.">
-            © 2023 NIC-GDES-252
+        <section class="flex-container footer">
+            <img class="footerlogo" src="images/Group 22.png" alt="GDES News logo in a red, high contrast serif font.">
+            <p class="footer">© 2023 NIC-GDES-252</p>
         </section>
     </footer>
 </body>
